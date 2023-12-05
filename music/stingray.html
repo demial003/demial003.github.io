@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./4472584.png" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Nanimono</h1>
+        <a href="home.html"><h1>HOME</h1></a>
+      </div>
+      <div class="content">
+        <div class="left-col">
+          <h1 class="playing">Now Playing:</h1>
+          <input
+            type="image"
+            src="./1200x1200bf-60.jpeg"
+            alt="logo"
+            class="logo"
+          />
+        </div>
+        <dialog>
+          <button class="close">Close</button>
+          <form action="">
+            <div class="form-content">
+              <label for="song-list">Select a song</label>
+              <select name="song-list" id="song-list">
+                <option value="トゲめくスピカ">トゲめくスピカ</option>
+                <option value="Fiction">Fiction</option>
+                <option value="Free">Free</option>
+                <option value="Squeeze">Squeeze</option>
+                <option value="バケノカワ">バケノカワ</option>
+                <option value="Shake! Shake! (雫カリウタVer.)">
+                  Shake! Shake! (雫カリウタVer.)
+                </option>
+                <option value="阿吽">阿吽</option>
+                <option value="女神">女神</option>
+                <option value="Jet">Jet</option>
+                <option value="ストップ・モーション">
+                  ストップ・モーション
+                </option>
+                <option value="さよならイエロー">さよならイエロー</option>
+                <option value="化身">化身</option>
+                <option value="何者">何者</option>
+                <option value="Pose (何者Ver.)">Pose (何者Ver.)</option>
+              </select>
+              <button class="submit" value="Submit">Submit</button>
+            </div>
+          </form>
+        </dialog>
+
+        <div class="right-col">
+          <p>Click here to play</p>
+          <input type="image" src="./375.png" alt="play" class="icon" />
+        </div>
+
+        <audio class="mySound">
+          <source src="" type="audio/mp3" />
+        </audio>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
